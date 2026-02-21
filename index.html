@@ -1,13 +1,28 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>temp</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nandan Kumar - Matrix Portfolio</title>
+</head>
+
+<body>
+  <!-- Matrix Digital Rain Canvas -->
+  <canvas id="matrix-canvas"></canvas>
+
+  <!-- Main Application Container -->
+  <main id="app">
+    <div id="terminal-output"></div>
+    <div id="command-line" class="glow">
+      <span id="prompt">user@matrix:~$</span>
+      <span id="typing-text"></span>
+      <span class="blinking-cursor"></span>
+    </div>
+  </main>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
